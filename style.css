@@ -1,0 +1,87 @@
+/* @media (max-width: 600px) {
+		body {
+		  column-count: 1;
+		}
+	  }p.a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hp{
+  width:50%;
+  height:30%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #893535;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(57, 161, 128);
+}
+
+body {
+  margin: 0;
+}
+
+.center{
+  text-align: center;
+  border: 3px solid blueviolet;
+}
+
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
